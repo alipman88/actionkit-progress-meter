@@ -41,7 +41,7 @@ Running on Heroku:
 In Action:
 ---------------
 
-[http://actionkit-progress-meter.herokuapp.com/3650/b5b869480c65ff65af4bfc9782fc742c/dollars/40000/baseball_bat.png](http://actionkit-progress-meter.herokuapp.com/3650/b5b869480c65ff65af4bfc9782fc742c/dollars/40000/baseball_bat.png)
+http://actionkit-progress-meter.herokuapp.com/4840/575847f70ffe145a0dc7ffcf4ff37fc3/actions/2000/baseball_bat.png
 
 (format: http://actionkit-progress-meter.herokuapp.com/[:page_id]/[:md5_hash]/[:goal_type]/[:goal]/baseball_bat.png)
 
