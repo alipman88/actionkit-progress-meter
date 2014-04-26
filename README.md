@@ -7,7 +7,9 @@ How it works:
 ---------------
 
 This app generates progress meters via a customized HTML template, converts them to .png files, and uploads these files to Amazon S3.
+
 Every time a progress meter is requested, the app will immediately redirect to a page's most recently archived S3 image, and if necessary, update the image via a background process.
+
 The URL of the progress meter image for any given ActionKit page includes an MD5 hash of the page's ID & created_at timestamp, and a secret salt. This prevents anyone with an internet connection from easily determining the number of actions or donation totals for any ActionKit page hosted by your organization.
 
 Requirements:
